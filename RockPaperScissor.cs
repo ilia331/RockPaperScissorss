@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.Design;
+using System.ComponentModel.Design;
 
 const string Rock = "Rock";
 const string Paper = "Paper";
 const string Scissors = "Scissors";
 
 Console.WriteLine("Chose [r]ock, [p]aper, [s]cissors");
+Console.BackgroundColor = ConsoleColor.Yellow;
 string playerMove = Console.ReadLine();
 
 if (playerMove == "r" || playerMove == "rock")
@@ -23,6 +24,7 @@ else if (playerMove == "s" || playerMove == "scissors")
 else
 {
     Console.WriteLine("Invalid Input. Try again");
+    Console.BackgroundColor = ConsoleColor.Red;
 }
 
 Random random = new Random();
@@ -43,12 +45,14 @@ switch (computerRandomNumber)
 }
 
 Console.WriteLine($"The computer chose {computerMove}.");
+Console.BackgroundColor = ConsoleColor.Gray;
 
 if ((playerMove == Rock && computerMove == Scissors) ||
     (playerMove == Paper && computerMove == Rock) ||
     (playerMove == Scissors && computerMove == Paper))
 {
     Console.WriteLine("You Win.");
+    Console.BackgroundColor = ConsoleColor.Green;
 }
 
 
@@ -57,8 +61,10 @@ else if ((playerMove == Rock && computerMove == Paper) ||
     (playerMove == Scissors && computerMove == Rock))
 {
     Console.WriteLine("You lose");
+    Console.BackgroundColor = ConsoleColor.Red;
 }
 else
 {
     Console.WriteLine("This game was a draw");
+    Console.BackgroundColor = ConsoleColor.Green;
 }
