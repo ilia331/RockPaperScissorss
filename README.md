@@ -24,6 +24,6 @@
 - **Библиотеки:**
   - `random` – за случаен избор от страна на компютъра
 - **Live Demo:**
-  - Може да избробвата играта на Live Demo на този линк : https://replit.com/@iliabakalovv581/RockPaperScissorss
+  - Може да избробвате играта на Live Demo на този линк : https://replit.com/@iliabakalovv581/RockPaperScissorss
 
 ---
