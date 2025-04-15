@@ -25,5 +25,8 @@
   - `random` – за случаен избор от страна на компютъра
 - **Live Demo:**
   - Може да избробвате играта на Live Demo на този линк : https://replit.com/@iliabakalovv581/RockPaperScissorss
+## 📸 Снимки
+![snimkaro](https://github.com/user-attachments/assets/dda75dbd-c6e9-46f2-9415-5f6f5a2daabe)
+
 
 ---
